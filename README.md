@@ -2,7 +2,7 @@
 This project demonstrates how to deploy MongoDB and Mongo-express in Kubernetes using YAML files.
 
 ### Getting started
-####Prerequisites
+#### Prerequisites
 A Kubernetes cluster
 kubectl command-line tool installed
 Basic knowledge of Kubernetes concepts
