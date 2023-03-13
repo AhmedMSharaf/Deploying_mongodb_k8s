@@ -12,7 +12,7 @@ kubectl apply -f mongodb-deployment.yaml
 This will create a deployment for MongoDB in your Kubernetes cluster.
 
 Next, create a secret YAML file to define the username and password for MongoDB:
-kubectl apply -f mongodb-secret.yaml
+'''kubectl apply -f mongodb-secret.yaml'''
 This will create a Kubernetes secret that can be used to securely store sensitive information like passwords.
 
 Finally, create an internal service to expose the MongoDB pod:
